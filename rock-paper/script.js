@@ -60,4 +60,4 @@ function game()
         prin.innerHTML += "computer wonnered"
     }
 }
-game()
+// game()

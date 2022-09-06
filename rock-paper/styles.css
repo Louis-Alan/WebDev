@@ -1,0 +1,14 @@
+img{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border: none;
+}
+
+.score{
+    display: flex;
+}
+
+.score div{
+    padding: auto;
+}
