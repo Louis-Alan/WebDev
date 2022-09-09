@@ -12,3 +12,12 @@ img{
 .score div{
     padding: auto;
 }
+
+header{
+    text-align: center;
+    font-size: 25px;
+}
+
+header h1{
+    margin: 0;
+}
