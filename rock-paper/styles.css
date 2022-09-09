@@ -5,14 +5,6 @@ img{
     border: none;
 }
 
-.score{
-    display: flex;
-}
-
-.score div{
-    padding: auto;
-}
-
 header{
     text-align: center;
     font-size: 25px;
@@ -20,4 +12,22 @@ header{
 
 header h1{
     margin: 0;
+}
+
+.score{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.score div{
+    padding: auto;
+}
+
+.rps{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Result{
+    text-align: center;
 }
