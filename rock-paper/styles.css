@@ -1,3 +1,7 @@
+*{
+    background-color: lightgrey;
+}
+
 img{
     width: 200px;
     height: 200px;
@@ -30,4 +34,12 @@ header h1{
 
 #Result{
     text-align: center;
+    margin: 20px;
+}
+
+#reset{
+    background-color: violet;
+    font-size: 15px;
+    padding: 10px 5px;
+    border-radius: 5px;
 }
