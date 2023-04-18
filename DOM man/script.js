@@ -8,7 +8,7 @@ container.appendChild(content);
 
 let para1 = document.createElement('p');
 para1.textContent = "Hey I'm red!";
-para1.style.color = "red";
+para1.style.color = "pink";
 container.appendChild(para1);
 
 container.innerHTML += `<h3 style = "color: blue">I'm a blue h3</h3>`
