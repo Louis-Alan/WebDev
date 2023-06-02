@@ -1,5 +1,4 @@
-## Learning Web Dev using The Odin Project
-
+## Learning Web Dev
 Just made some mini - projects:
 
 1) landingPage - using only HTML & CSS
