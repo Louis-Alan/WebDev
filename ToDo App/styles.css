@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1F2937;
+    color: beige;
+    max-height: 100vh;
+}
+
+.plus-button {
+    margin: 0;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    padding-left:20px;
+    filter: invert(15%) sepia(82%) saturate(6432%) hue-rotate(11deg) brightness(101%) contrast(122%);
+}
+
+#add-button:active > .plus-button{
+    filter: invert(0%) sepia(6%) saturate(7500%) hue-rotate(328deg) brightness(103%) contrast(106%);
+}
+
+#task-list {
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: repeat(5, 15vw);
+}
+
+.todo{
+    border: 3px dotted blue;
+    color: beige;
+    padding: 5px;
+}
+
+.todo >span {
+    position: relative;
+    right: 2px;
+    float:right;
+}
+
+.todo >span:hover {
+    color: red;
+    cursor: pointer;
+}
