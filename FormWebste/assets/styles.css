@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.left{
+    background: url(background.jpg) center;
+    background-size: cover;
+    flex: 2;
+}
+
+.banner{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.logo{
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(../Norse-Bold.otf) format("opentype");
+}
+
+.banner h1{
+    font-family: 'Norse-Bold', serif;
+    font-size: 5rem;
+}
+
+.right{
+    background: lightgray;
+    flex: 3;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.right h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 90%;
+    font-size: 1.3rem;
+    padding-left: 5vw;
+}
+
+.form{
+    background: whitesmoke;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding: 10px 10px 10px 5vw;
+}
+
+.formInp{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+}
+
+.log-in{
+    display: flex;
+    gap: 5px;
+    padding-left: 5vw;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    margin: 40px 0;
+    padding: 10px 40px;
+}
+
+input:invalid {
+    border-color: red;
+  }
+  
+input:valid {
+    border-color: green;
+  }
+
+input {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+  }
